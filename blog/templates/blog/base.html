@@ -9,7 +9,9 @@
     </head>
 <body>
     <div class="page-header">
-        <h1><a href="/">Django Girls Blog</a></h1>
+        <h1 class="text-center"><a href="/">Django Girls Blog</a></h1>
+        <button class="btn-lg btn-success pull-right"><a href="{% url 'post_new' %}" style="color:white"><span class="glyphicon glyphicon-plus"></span></a></button>
+        <!--span><a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a></span-->
     </div>
     <div class="content container">
         <div class="row">
